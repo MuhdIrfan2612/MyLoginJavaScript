@@ -2,6 +2,7 @@
     <head>
         <title>Login</title>
         <script src="login.js"></script>
+        <link href="login.css" rel="stylesheet">
     </head>
     <body>
         <div class="container">
@@ -9,7 +10,7 @@
                 <h1>Login to Youtube</h1>
             </div>
 
-            <form name="logn" onsubmit="return validateForm() ;" method="post">
+            <form name="login" onsubmit="return validateForm() ;" method="post">
                 <ul>
                     <li>
                         Username: 
@@ -20,6 +21,7 @@
                         <input class="password" type="password" name="password">
                     </li>
                 </ul>
+                <input type="button" class="submit" value="Log In" name="submit" onclick="validate()">
             </form>
         </div>
     </body>

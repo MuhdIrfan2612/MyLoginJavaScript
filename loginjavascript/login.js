@@ -18,7 +18,7 @@ function validate(){
         if (valid)
         {
             alert("Login was successful");
-            window.location = "https://www.google.com/";
+            window.location = "https://www.youtube.com";
             return false;
         }
         var again = "tries";
